@@ -1,0 +1,20 @@
+.intra{
+	height: 300px;
+	width: 1300px;
+	background-color: grey;
+	color: black;
+}
+.What,.Benefits{
+	float: left;
+}
+
+.share,.What{
+	margin-left:30px;
+	padding-left:150px;
+}
+.Benefits{
+	padding-left:250px;
+}
+.liShare,.ulBenefits{
+	text-transform: capitalize;
+}

@@ -1,0 +1,111 @@
+background color
+background-image:url(https://....) ... some url where the image is available
+we can also give the local folder url
+background-repeat:no-repeat;
+background-repeat:repeat-x; ...horizontally the image repeats .... 
+background-repeat:repeat-y; ... vertically the image repeats
+background-position .... right 
+background-attachment ..by default its scroll ...if background image should nt move means..value should be fixed
+
+shorthand sequence
+background: image position size repeat attachement
+
+size: cover
+
+<span>... to give specific style to an element inside another element
+
+block elements.. cover the whole browser size
+inline element... cover the element size
+
+box model ..margin border padding content
+margin-top right bottom left :20px 30px 30px 20px
+margin: 20px 30px; ... top-bottm right-left
+padding-top right bottom left: 4 values
+padding: 20px 30px; .... top-botm right-left
+same for border
+margin-left right top bottom are child elements for margin
+
+float .... to convert block level elemtn to inline elemnt
+float-right
+float-left
+<span clear-left clear-right clear-both>..its mandatory to use clear after any float attribute
+also specify height to the parent element..suppose in div -> p element we have float..so specify height n width for div element
+
+table tag..th tr td
+colspan ... spans for nmber of cols we specify colspan="2" will span for 2 columns
+rowspan ...for two rows ... rowspan="2" 
+
+
+
+position:fixed ; for foreground elements ...top right left bottom are mandatory to mention
+static is by default ...4 props cannot be applied to this 
+relative ...
+absolute...with ref to parent element 
+
+
+TASK 1... intrakonnect.com website ********************* DONE
+task 2: 4 tables with all properities of it ........10% DONE just structure
+task 3:intraKoneect nav bar -----------90% DONE NOT HAPPENING POSITION FIXED...P TAG DATA IS COMING BACKGROUND OF NAV BAR
+task4: intrakonnect connect page displayed ..NOT STARTED
+
+
+
+revise box model concepts more and practise much more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

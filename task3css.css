@@ -1,0 +1,23 @@
+/*.main{
+	position: fixed;
+}
+*/
+ul{
+	text-transform: uppercase;
+}
+.logo,.nav{
+	float:left;
+}
+.navbar{
+	padding-left:750px;
+	list-style-type: none;
+}
+.nav{
+	padding-left: 10px;
+
+}
+.Pclass{
+	clear: left;
+}
+
+
