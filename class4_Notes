@@ -1,0 +1,182 @@
+class 4
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+
+		/*div.demo h1{
+			color: green;
+		}*/
+
+
+		/*.demo ~ div{
+			color: gray;
+		}
+
+		a{
+			color: green;
+		}
+		a:hover{
+			border-bottom: 2px solid black;
+		}
+		a:active{
+			border-bottom: 2px solid green;
+		}
+		a:visited{
+			color: yellow;
+		}
+		a:focus{
+
+		}*/
+
+
+		/*h1:first-child{
+			background-color: blue;
+		}*/
+
+		/*div:nth-child(1){
+			color: green;
+		}
+
+		table,th,td{
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+		th, td{
+			padding: 10px;
+		}
+
+		tr:nth-child(even){
+			color: green;
+		}*/
+		/*tr:nth-child(odd){
+			color: gray;
+		}*/
+
+
+		/*p::first-line{
+			color: gray;
+			font-size: 30px;
+		}*/
+
+		p::selection{
+			background-color: gray;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+
+	<!-- <div style="padding: 100px; background-color: rgba(243, 51, 10, 0.2);">
+		
+
+
+	</div> -->
+<!-- <div>
+
+	<div style="float: left; width: 50%; height: 300px; background-color: green;">
+		<div style=" width: 33%; background-color: gray; height: 200px;"></div>
+		<div style="width: 33%; background-color: yellow; height: 200px;"></div>
+		<div style=" width: 33%; background-color: gray;"></div>
+
+
+
+	</div>
+</div> -->
+
+
+<!-- <div id="demo">
+	
+	<h1>This is my heading ...</h1>
+	<span>
+		<h1>This is my heading ...</h1>
+	</span>
+	<div>
+		<h1>This is my heading ...</h1>
+	</div>
+</div>
+
+<div>
+	
+	<h1>This is my heading ...</h1>
+	<span>
+		<h1>This is my heading ...</h1>
+	</span>
+	<div>
+		<h1>This is my heading ...</h1>
+	</div>
+</div>
+
+<div>
+	
+	<h1>This is my heading ...</h1>
+	<span>
+		<h1>This is my heading ...</h1>
+	</span>
+	<div>
+		<h1>This is my heading ...</h1>
+	</div>
+</div>
+
+<div>
+	
+	<h1>This is my heading ...</h1>
+	<span>
+		<h1>This is my heading ...</h1>
+	</span>
+	<div>
+		<h1>This is my heading ...</h1>
+	</div>
+</div>
+
+<a href="#">Contact US</a> -->
+
+
+<!-- <div>
+	
+
+	<h2>Hello this is nth-child example....</h2>
+	<h2>Hello this is nth-child example....</h2>
+	<h2>Hello this is nth-child example....</h2>
+</div>
+<div>
+	
+
+	<h2>Hello this is nth-child example....</h2>
+	<h2>Hello this is nth-child example....</h2>
+	<h2>Hello this is nth-child example....</h2>
+</div> -->
+<!-- <table>
+	
+	<tr>
+		<th>Name</th>
+		<th>City</th>
+	</tr>
+	<tr>
+		<td>Charan</td>
+		<td>Hyd</td>
+	</tr>
+	<tr>
+		<td>Charan</td>
+		<td>Hyd</td>
+	</tr>
+	<tr>
+		<td>Charan</td>
+		<td>Hyd</td>
+	</tr>
+</table>
+ -->
+
+
+
+ <div>
+ 	<p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+ </div>
+</body>
+</html>

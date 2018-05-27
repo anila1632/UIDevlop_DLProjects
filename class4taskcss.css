@@ -1,0 +1,96 @@
+.topnav{
+	
+	position: fixed;
+
+}
+
+.uloptions{
+	
+	text-transform: uppercase;
+}
+.navbar{
+	float: right;
+	padding-left: 450px;
+}
+
+.uloptions{
+	float: right;
+	list-style-type: none;
+}
+.logo,.li{
+	float: left;
+}
+.li{
+	padding-right: 20px;
+}
+
+.seconddiv{
+	background-color: gray;
+	clear: both;
+	height: 350px;
+	padding-top: 30px;
+
+}
+.sech2,.sech3{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 40px;
+}
+.secP{
+	color: white;
+	font-size: 24px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.keyfeatures{
+	font-size: 30px;
+	color: white;
+}
+
+.thirddiv{
+	background-color: lightblue;
+	text-align: center;
+	clear: both;
+	height: 250px;
+}
+.thirdimg{
+	padding-right: 120px;
+}
+.fourthdiv{
+	background-color: gray;
+	height: 200px;
+	padding-top: 20px;
+}
+.share{
+	font-size: 20px;
+	color: white;
+}
+.listshare,.listbenefits{
+	list-style-type: circle;
+}
+
+.share,.what,.you,.listshare{
+	float: left
+
+}
+.benefits{
+	float: right;
+}
+.you,.bene{
+	font-size: 20px;
+}
+
+.what,.benefits{
+	padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
