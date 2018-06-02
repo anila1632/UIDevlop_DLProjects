@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Practise HTML 1</title>
+</head>
+<body style="background-color: powderblue;">
+<h1>This is First heading</h1>
+<h2>this is h2 heading</h2>
+<h3>this is h3 heading</h3>
+<h4>this is h4 heading</h4>
+<h5>this is h5 heading</h5>
+<h6>this is h6 heading</h6>
+<p>this is a paragraph tag</p>
+<a href="http://www.google.com">this is google link</a>
+<img src="/home/anila/Desktop/DL projects/DL projects/class 3/images/logo.png" alt="this is a logo" width="150" height="100">
+<p>alt attribute of img element will be displayed when the image is not getting displayed on the webpage. this helps with the one who is listening to the webpage for a blind person.</p>
+<button>click me. im button</button>
+<ul>
+	<li>this</li>
+	<li>is</li>
+	<li>unordered list</li>
+</ul>
+<ol>
+	<li>this</li>
+	<li>is</li>
+	<li>ordered list</li>
+</ol>
+<p>html elements with no content are called empty elements like br tag</p>
+<p>html tags are not case sensitive bt w3c recommends to put lowwercase of html tags</p>
+<br>
+<p>attributes define more abt html elements. attributes are always mentioned in start tag. attributes always come with name value pair like name="value"</p>
+<p style="color: red">this is paragraph with style attribute and color name and value as red</p>
+<p>html tag has a lang attribute. lang with usual value en-US. en is language english.us is dialect</p>
+<p>title attribute acts as a tooltip.</p>
+<img src="/home/anila/Desktop/DL projects/DL projects/class 3/images/logo.png" title="logo image" alt="this is a logo" width="150" height="100">
+<p title="paragraph's tootltip">this paragraph has a title for tooltip</p>
+<p title="this is title">this is para with title value double quotes on both sides</p>
+<p title='this is title'>this is para with single quotes on both sides</p>
+<p title="this 'is' title">this is para with single quotes in between title value</p>
+<p title="this "is" title">this is para with double quotes both in between value of title attribute and for whole value of title attr value</p>
+<p title='this "is" title'>this is para with single quotes on ends and double quotes in between value of title attr value</p>
+<p title='this 'is' title'>this is para with all single quotes even in title attr value</p>
+<h1>this is h1 heading.</h1>
+<p>search engines use headings for indexing the structure and content of web page</p>
+<h4>this is h4 heading</h4>
+<p>we can increase the heading font size using the style attribute and font size attribute of css</p>
+<h4 style="font-size: 40px;">this is h4 heading with style fontsize 40</h4>
+<hr>
+<p>hr tag for horizontal line to separate the contents</p>
+<hr>
+<p>head tag is written between html and body tags.head tag is used to mention the metadata. the metadata is not displayed in the final web page.</p>
+<p>this is</p>
+<p>paragraph</p>
+<p>another paragraph</p>
+<p>without any line break</p>
+<p>but with multiple p tags given</p>
+<hr>
+<p>this is paragraph <br>another paragraph<br>with line break</p>
+<hr>
+<p>this is paragraph     mentioned with spaces using    spacebar</p>
+<pre>
+	<p>this is another      paragraph   given spaces    with spacebar   but mentioned inside pre tag.pre tag preserves the style written as mentioned     while coding</p>
+</pre>
+<p>using style attribute in body tag or any other tag we can give background color which is css property</p>
+<p style="background-color: gray;">just trying to give background color to paragraph element</p>
+<p style="background-color:gray;color: white;">just trying to give text color as white along with backgorund color</p>
+<p style="background-color: green;color: black;font-size: 24px;text-align:center; ">trying to give background color, text color, font size and text alignment</p>
+<h3>text formatting</h3>
+<b>b tag for bold</b>
+<i>i tag for itallic</i>
+<p>sup tag for mentioning superscript like to mention 2 power 2..2<sup>2</sup></p>
+<p>sub tag for subscript 2<sub>2</sub></p>
+<p>small tag defines the text in smaller font than the font in the line..like <small>this is small tag</small></p>
+<p>to mark or highlight any text in a line then user mark tag like..<mark>this is mark tag</mark></p>
+<p>there are ins and del tags..ins for inserted text it gives an underlining to the text in ins tags like <ins>this text is inside the ins tag</ins>. and del tag strikes across the text mentioned inside the del tag like..<del>this text is inside del tag</del></p>
+<p>Master oogway's dialogue <q>One finds his destiny in the path he often takes to avoid it</q>..here q tag is used to mention the dialogue.so q tag is used for quotations or some special texts and it will be displayed automatically in double quotes</p>
+<p>blockquote tag defines a text section that is taken from another source</p>
+<blockquote>this text is of blockquote without any p tag</blockquote>
+<blockquote cite="http://www.google.com">this is another from blockquote but with cite attribute and no p tag</blockquote>
+<p>this is paragraph <blockquote>this is blockquote text</blockquote></p>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
