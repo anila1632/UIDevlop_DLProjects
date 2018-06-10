@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Practise HTML 1</title>
+	<style type="text/css">
+		.table3{
+			border: 2px solid black;
+
+
+		}
+		.table3 th,td{
+			border:2px solid red;
+			border-collapse:collapse;		
+		}
+		#spltable01,th,td{
+			border:2px solid black;
+			border-collapse: collapse;
+
+		}
+		#spltable01 th,td{
+			padding-right: 5px;					
+
+		}
+		#spltable01{
+			width: 50%;
+		}
+		
+
+	</style>
+</head>
+<body style="background-color: powderblue;">
+<h1>This is First heading</h1>
+<h2>this is h2 heading</h2>
+<h3>this is h3 heading</h3>
+<h4>this is h4 heading</h4>
+<h5>this is h5 heading</h5>
+<h6>this is h6 heading</h6>
+<p>this is a paragraph tag</p>
+<a href="http://www.google.com">this is google link</a>
+<img src="/home/anila/Desktop/DL projects/DL projects/class 3/images/logo.png" alt="this is a logo" width="150" height="100">
+<p>alt attribute of img element will be displayed when the image is not getting displayed on the webpage. this helps with the one who is listening to the webpage for a blind person.</p>
+<button>click me. im button</button>
+<ul>
+	<li>this</li>
+	<li>is</li>
+	<li>unordered list</li>
+</ul>
+<ol>
+	<li>this</li>
+	<li>is</li>
+	<li>ordered list</li>
+</ol>
+<p>html elements with no content are called empty elements like br tag</p>
+<p>html tags are not case sensitive bt w3c recommends to put lowwercase of html tags</p>
+<br>
+<p>attributes define more abt html elements. attributes are always mentioned in start tag. attributes always come with name value pair like name="value"</p>
+<p style="color: red">this is paragraph with style attribute and color name and value as red</p>
+<p>html tag has a lang attribute. lang with usual value en-US. en is language english.us is dialect</p>
+<p>title attribute acts as a tooltip.</p>
+<img src="/home/anila/Desktop/DL projects/DL projects/class 3/images/logo.png" title="logo image" alt="this is a logo" width="150" height="100">
+<p title="paragraph's tootltip">this paragraph has a title for tooltip</p>
+<p title="this is title">this is para with title value double quotes on both sides</p>
+<p title='this is title'>this is para with single quotes on both sides</p>
+<p title="this 'is' title">this is para with single quotes in between title value</p>
+<p title="this "is" title">this is para with double quotes both in between value of title attribute and for whole value of title attr value</p>
+<p title='this "is" title'>this is para with single quotes on ends and double quotes in between value of title attr value</p>
+<p title='this 'is' title'>this is para with all single quotes even in title attr value</p>
+<h1>this is h1 heading.</h1>
+<p>search engines use headings for indexing the structure and content of web page</p>
+<h4>this is h4 heading</h4>
+<p>we can increase the heading font size using the style attribute and font size attribute of css</p>
+<h4 style="font-size: 40px;">this is h4 heading with style fontsize 40</h4>
+<hr>
+<p>hr tag for horizontal line to separate the contents</p>
+<hr>
+<p>head tag is written between html and body tags.head tag is used to mention the metadata. the metadata is not displayed in the final web page.</p>
+<p>this is</p>
+<p>paragraph</p>
+<p>another paragraph</p>
+<p>without any line break</p>
+<p>but with multiple p tags given</p>
+<hr>
+<p>this is paragraph <br>another paragraph<br>with line break</p>
+<hr>
+<p>this is paragraph     mentioned with spaces using    spacebar</p>
+<pre>
+	<p>this is another      paragraph   given spaces    with spacebar   but mentioned inside pre tag.pre tag preserves the style written as mentioned     while coding</p>
+</pre>
+<p>using style attribute in body tag or any other tag we can give background color which is css property</p>
+<p style="background-color: gray;">just trying to give background color to paragraph element</p>
+<p style="background-color:gray;color: white;">just trying to give text color as white along with backgorund color</p>
+<p style="background-color: green;color: black;font-size: 24px;text-align:center; ">trying to give background color, text color, font size and text alignment</p>
+<h3>text formatting</h3>
+<b>b tag for bold</b>
+<i>i tag for itallic</i>
+<p>sup tag for mentioning superscript like to mention 2 power 2..2<sup>2</sup></p>
+<p>sub tag for subscript 2<sub>2</sub></p>
+<p>small tag defines the text in smaller font than the font in the line..like <small>this is small tag</small></p>
+<p>to mark or highlight any text in a line then user mark tag like..<mark>this is mark tag</mark></p>
+<p>there are ins and del tags..ins for inserted text it gives an underlining to the text in ins tags like <ins>this text is inside the ins tag</ins>. and del tag strikes across the text mentioned inside the del tag like..<del>this text is inside del tag</del></p>
+<p>Master oogway's dialogue <q>One finds his destiny in the path he often takes to avoid it</q>..here q tag is used to mention the dialogue.so q tag is used for quotations or some special texts and it will be displayed automatically in double quotes</p>
+<p>blockquote tag defines a text section that is taken from another source</p>
+<blockquote>this text is of blockquote without any p tag</blockquote>
+<blockquote cite="http://www.google.com">this is another from blockquote but with cite attribute and no p tag</blockquote>
+<p>this is paragraph <blockquote>this is blockquote text</blockquote></p>
+<p>abbr tag stands for abbreviations or defining acronyms SWB in p tag<abbr title="Surveillance Workbench"> SWB</abbr></p>
+<address>aryamitra lotus homes, bloack b, alkapur township,manikonda  address element</address>
+<cite>title of work</cite>
+<p><cite>The jungle book</cite> Its a story of mogli bhageera and sharekhan in a forest and finally mogli kills sharekhan</p>
+<p>bdo is bidirectional override and displays text inside the bdo tags in the direction specified.rtl right to left and ltr left to right is usual way of displaying. inside dir attribute the direction is specified.if its rtl right to left, not just the sentence even the words will get displayed in right to left along with sentence being displayed from right to left</p>
+<bdo dir="rtl">This tag is bidirectional override</bdo>
+<bdo dir="ltr">...this tag is bidirectional override with left to right</bdo>
+<!--this is comment-->
+<!--comments acts 
+as a great tool when debugging the lines of code
+to find the errors
+-->
+<h4 style="background-color:gray;color: white;border:2px solid red">style with color name</h4>
+<p style="background-color:gray;color: rgb(0,255,0);border:5px solid rgb(255,0,0);">style with RGB</p>
+<h4 style="background-color:#ff00ff;color:black;border: 2px solid #0000ff;">style with hex values of color</h4>
+<p style="background-color:rgba(255,100,90,0.5);border:2px solid black;">style with rgba values a stands for alpha with states transparency. 0.0 for fully transparent and 1.0 for not transparent at all. when we mention a=0 not matter what the color is for background-color attribute.it will display the background color of the body</p>
+<p style="background-color:rgba(255,100,90,1);color:rgba(0,0,255,1);border:2px solid black;">style with a=1 for the same above color</p>
+<p>HSL stands for hue, saturation and lightness. hue is degree of the color on a color wheel from 0 to 360 degrees. s for saturation, the percentage value 0% means fully gray and 100% means we can see the color, l for lightness its also %, 0% means black, 50% means neither light nor dark,100% means white</p>
+<p>h stands for hue. 0-120 is red, 120-240 is green and 240-360 is blue</p>
+<p>in saturation its the purity of the color. gray will be mixed with each % value other than 0,because 0% means gray.when s=0% its completely gray.when s=50% it means 50% of the color is mixed with gray color bt still we can see and say what color it is. when s=100% its the full color without any gray </p>
+<p style="background-color:hsl(100,50%,0%);color:white;">this style has only h in color</p>
+<p style="background-color:hsl(0,50%,20%);color:white;">this has s style in color</p>
+<p style="background-color:hsl(0,0%,50%);">this has only l style in color</p>
+<p>in hsla a means again alpha</p>
+<a href="http://www.facebook.com">Facebook link using a tag</a>
+<a href="/home/anila/Desktop/DL projects/DL projects/class 4/images/logo.png">this is image using a tag</a>
+<p>a tag has target attribute which specifies the item in href attri to be displayed in the same window or separate window or separate tab</p>
+<a href="http://www.facebook.com" target="_blank">facebook target=blank</a>
+<a href="http://www.facebook.com" target="_self">facebook target=self</a>
+<a href="http://www.facebook.com" target="_top">facebook target=top</a>
+<a href="http://www.facebook.com" target="_parent">facebook target=parent</a>
+<p>target=parent for opening the webpage in the parent frame</p>
+<p>showing image as link. first a tag then inside it img tag</p>
+<a href="http://www.facebook.com"><img src="/home/anila/Desktop/DL projects/DL projects/class 3/images/facebook.png" width="50px" height="90px" border="2px"></a>
+<p>title attribute can also be used for links so that when we mouse hover the link and hand cursor appears so along with hand cursor the title which is the tooltip also appears.the text given for title attri will be displayed as tooltip for that link</p>
+<a href="http://www.google.com" title="this is google home page">Google</a>
+<p> using html links we can also create bookmarks. bookmarks allow users to jump from one part of web page to another. especially when the web page is too long. example when fist listed the list of contents and the detailed description later, its very exhausting to scroll up and down. so if we create bookmarks and click on any of the list of contents then it will directly navigate to the detailed description</p>
+<h4><a href="#chap4">chapter1</a></h4>
+<h4>chapter2</h4>
+<h4>chapter3</h4>
+<h4>chapter4</h4>
+<h4>chapter5</h4>
+<h4>chapter6</h4>
+<h4>chapter7</h4>
+<h4><a href="http://www.facebook.com#chap10">chapter8</a></h4>
+<h4>chapter9</h4>
+<h4>chapter10</h4>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p id="chap10">This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p id="chap4">This is paragraph.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<hr>
+<img src="https://previews.123rf.com/images/annykos/annykos1407/annykos140700038/29857828-fun-colorful-sketch-collection-of-italy-icons-countries-alphabet.jpg" alt="italy image" width="200px" height="200px">
+<p>for an image we can create image maps. the clickable areas in an image. for creating image map use map tag with usemap attribute</p>
+<img src="/home/anila/Desktop/DL projects/DL projects/class 4/images/imageMap.jpg" usemap="#paintings" width="200px" height="200px">
+<map name="#paintings">
+	<area shape="rect" coords="" href="">
+</map>
+<p>picture tag of html5 to specify multiple images under source tags. source tags can be multiple source files like media or image and keep img as the last tag inside picture tag</p>
+<picture>
+	<source src="/home/anila/Desktop/DL projects/DL projects/class 3/images/logo.png" type="">
+	<source src="/home/anila/Desktop/DL projects/DL projects/class 4/images/share.svg" type="">
+	<img src="/home/anila/Desktop/DL projects/DL projects/class 4/images/blackcurrent.jpg" width="350px" height="200px">
+</picture>
+<h3>Tables</h3>
+<p>by default th table headings are bold and centered.td data containers of the table can contain all sorts of data like other tables,images,text,links,lists etc. a table has to be specified with borders if not it will be displayed without any borders. and the borders should be given to all table th td. using border-collapse property is important esp when using solid if not it will be displayed in double lines.if we say border-collapse: collapse then btwen td double lines will go and only single line as solid will be displayed.<br>for the below table we did not use any css for table th and td so its displaying border for only table as we have given only for it</p>
+
+<table style="border: 2px solid black;border-spacing: 10px;">
+	<tr>
+		<th>Deal ID</th>
+		<th>Deal Description</th>
+		<th>No of Alerts</th>
+		<th>Sub-Scenario</th>
+		<th>MAR Score</th>
+		<th>CRAF score</th>
+	</tr>
+	<tr>
+		<td>abcd1234</td>
+		<td>Spoofing</td>
+		<td>4</td>
+		<td>Layering</td>
+		<td>5.45</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>max1765</td>
+		<td>Fixing window</td>
+		<td>2</td>
+		<td>specific</td>
+		<td>3.34</td>
+		<td>2</td>
+	</tr>
+</table>
+<p>we can always align the data in the table using text-align with values left r right. border-spacing for giving space between the cells. and border-spacing has no effect when border-collapse is used</p>
+<table style="border: 2px solid black;border-spacing:5px;">
+	<tr>
+		<th style="text-align: left;">Deal ID</th>
+		<th>Deal Description</th>
+		<th>No of Alerts</th>
+		<th>Sub-Scenario</th>
+		<th>MAR Score</th>
+		<th>CRAF score</th>
+	</tr>
+</table>
+<p>suppose for two columns in a table should come under a single row means for two or more data cells there should be a same th, then use colspan attri. here colspan=2 </p>
+<table class="table3">
+	<tr class="tr31">
+		<th>First Name</th>
+		<th>Last Name</th>
+		<th colspan="2">Phone No.</th>
+	</tr>
+	<tr class="tr32">
+		<td>Anila</td>
+		<td>Sekhar</td>
+		<td>8974124521</td>
+		<td>9985746412</td>
+	</tr>
+</table>
+<p>Make rowspan for making the td in a single row. we can also add a caption to the table like a heading saying what the table is abt. this can be done using caption tag</p>
+<table style="border:2px solid green;border-spacing:3px;padding:2px;">
+	<caption>Personal Details</caption>
+	<tr>
+		<th>First name</th>
+		<td>Anila</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Ph no</th>
+		<td>89546123</td>		
+	</tr>
+	<tr>
+		<td>04478598</td>
+	</tr>
+	<tr>
+		<td>451475485</td>
+	</tr>
+</table>
+<p>try using caption at the closing tag of the table</p>
+<table style="border:2px solid green;border-spacing:3px;padding:2px;">
+	
+	<tr>
+		<th>First name</th>
+		<td>Anila</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Ph no</th>
+		<td>89546123</td>		
+	</tr>	
+	<tr>
+		<td>04478598</td>
+	</tr>
+	<tr>
+		<td>451475485</td>
+	</tr>
+	<caption>Personal Details</caption>	
+</table>
+<p>so no matter where you place the caption tag either right after the starting table tag or while closing table tag, it will be displayed on the top of the table like a heading and centered wrt table. if we place it between the tr tags, it will change the table structure</p>
+<table id="spltable01">
+	<tr>
+		<th>FirstName</th>
+		<th>Lastname</th>
+		<th>address</th>
+	</tr>
+	<tr>
+		<td>anila</td>
+		<td>sekhar</td>
+		<td>home</td>
+	</tr>
+	<tr>
+		<td>priya</td>
+		<td>chandu</td>
+		<td>office</td>
+	</tr>
+	<tr>
+		<td>priyanka</td>
+		<td>varanasi</td>
+		<td>park</td>
+	</tr>
+</table>
+<h3>Summary of table</h3>
+<ol>
+	<li> table tag for creating the table</li>
+	<li>tr for table row, th for table heading which get displayed as column name, td for table data</li>
+	<li>border attribute--- for table th and td. it gives border to the table and the table cells. even if we specify as solid that it should display as single line between cells it will be displayed as double lines between cells</li>
+	<li>border-collapse -- so when it comes as double lines btwn cells, to make it display as solid.the borders will combine into one.so should be used when table,th,td --> border and border-collapse</li>
+	<li>cell padding -- gives space a gap btwn cell data and its border.so it should be given to th and td</li>
+	<li>text-align --- gives alignment to the text in left,right and center. give it for th,td.</li>
+	<li>th will be by default bold and centered</li>
+	<li>border-spacing --gives spaces btwen cells in a table and shld not be used when border-collapse attri is used. so mention it for table</li>
+	<li>colspan -- to combine 2 or more columns. rowspan -- to combine 2 or more rows</li>
+	<li>caption tag -- to add caption to a table</li>
+	<li>to give spl styles to a table give id to the table</li>
+	<li>we can specify more styles using css. suppose if alternate rows have to be displayed in white and gray bgcolor then use table#t01 tr:nth-child(even) </li>
+	<li>colgroup tag and inside there are col tags..so these tags are used to specify a particular style to specific columns. use colspan for col tags, if colspan=2 then first 2 column will have that style</li>
+	<li>there are other tags for table as well like thead,tfoot,tbody</li>
+	<li>thead for headings of the column names of the table.for th,tr inside thead.</li>
+	<li>tfoot will be displayed in the last row of the table</li>
+
+
+</ol>
+<hr>
+<table style="border: 2px solid red;width: 25%;">
+	<caption>Sample table with thead tfoot tbody</caption>
+	<thead>
+		<tr>
+			<th>first name</th>
+			<th>last name</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td>abcd</td>
+			<td>efgh</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<td>anila</td>
+			<td>priya</td>
+		</tr>
+		<tr>
+			<td>juju</td>
+			<td>lala</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+<h4>About Lists</h4>
+<p>There are different types of list types.by default unordered list takes round dots.so other types of bullets like circle,square,disc.so this can be acheived through list-style-type and values will be circle,disc,square and none.</p>
+<ul style="list-style-type:circle;">
+	<li>list</li>
+	<li>style type is</li>
+	<li>cicle</li>
+</ul>
+<ul style="list-style-type:disc;">
+	<li>list</li>
+	<li>style type is</li>
+	<li>disc</li>
+</ul>
+<ul style="list-style-type:square;">
+	<li>list</li>
+	<li>style type is</li>
+	<li>square</li>
+</ul>
+<ul style="list-style-type:none;">
+	<li>list</li>
+	<li>style type is</li>
+	<li>none</li>
+</ul>
+<ul>
+	<li>list</li>
+	<li>style type is</li>
+	<li>not given</li>
+</ul>
+<h3>Ordered list</h3>
+<ol>
+	<li>there</li>
+	<li>is no</li>
+	<li>list style</li>
+	<li>defined</li>
+</ol>
+<ol type="1">
+	<li>list</li>
+	<li>style type</li>
+	<li>type=1 numbers</li>
+</ol>
+<ol type="a">
+	<li>list</li>
+	<li>style type</li>
+	<li>type=a</li>
+</ol>
+<ol type="A">
+	<li>list</li>
+	<li>style type</li>
+	<li>type=A</li>
+</ol>
+<ol type="i">
+	<li>list</li>
+	<li>style type</li>
+	<li>type=i</li>
+</ol>
+<ol type="I">
+	<li>list</li>
+	<li>style type</li>
+	<li>type=I</li>
+</ol>
+<h3>Description Lists</h3>
+<dl>
+	<dt>rice</dt>
+	<dd>white or brown crystal substance</dd>
+	<dt>noodles</dt>
+	<dd>long sticky stretchy substance</dd>
+</dl>
+<h3>Nested lists</h3>
+<ul>
+	<li>Milk</li>
+	<li>Coffee
+		<ul>
+			<li>Cappiccino</li>
+			<li>Latte</li>
+			<li>Espresso</li>
+		</ul>
+	</li>
+	<li>Tea
+		<ul>
+			<li>Green Tea</li>
+			<li>Rose Tea</li>
+			<li>Black Tea</li>
+		</ul>
+	</li>
+	<li>Fruit Juice</li>
+	<li><a href="http://www.google.com">Google</a></li>
+	<li><img src="/home/anila/Desktop/DL projects/DL projects/class 3/images/facebook.png" width="75px" height="75px"></li>
+</ul>
+<p>instead of mentioning type of ol everytime, we can use start attribute in ol.if start=10, the list number would start from 10</p>
+<ol start="10">
+	<li>this</li>
+	<li>list has</li>
+	<li>start=10</li>
+</ol>
+<p>we can create menu or nav bar using lists and make them display horizontally using certain css props like float left for li elements</p>
+<hr>
+<h4>Blocks</h4>
+<hr>
+<h4>iframes</h4>
+<p>a frame is used to display a webpage within a webpage.in an iframe tag there is src for url of webpage to be displayed, height and width of frame to be displayed.if no measurement is mentioned for height and width like height=100, it means by default its pixels(px) and % can also be given</p>
+<iframe src="/home/anila/Desktop/DL projects/DL projects/class 4/class4task.html" height="200" width="800"></iframe>
+<p>so in place of url in src attribute, any webpage url like facebook,google or any other thing is not working. it should be any html page extension of html.</p>
+<p>now this frame comes with a border, so if to remove the border then should use css prop border:none inside style</p>
+<iframe src="/home/anila/Desktop/DL projects/DL projects/class 4/class4task.html" height="200" width="800" style="border:none;"></iframe>
+<p>now give some border stylings to the frame</p>
+<iframe src="/home/anila/Desktop/DL projects/DL projects/class 4/class4task.html" height="200" width="800" style="border:2px solid red;"></iframe>
+<p>another attribute in target attribute of links came across with frames that is iframe.so when any link is clicked the respective href will be displayed inside the frame.for this to happen first define iframe and give a name to it.2nd define anchor tag and mention its target=iframe name</p>
+<iframe src="/home/anila/Desktop/DL projects/DL projects/class 4/class4task.html" height="200" width="100%" name="googleframe"></iframe>
+<p>To refer for more html tags click here <a href="https://www.w3schools.com" target="googleframe">W3 schools</a></p>
+<p>even if we mention website urls for href or src in iframe, the frame mentioned shld display the webpage but here <b>its not displaying. have to find out what d problm is...</b></p>
+<hr style="border-color:red;">
+<h4>Forms</h4>
+<p>main tag for all form elements is form tag</p>
+<form>
+	<input type="text" name="fName">
+	<input type="radio" name="radiobtn">
+	<input type="submit" name="submitbtn">
+</form>
+<p>now creating a simple form with firstname last name gender and submit btn</p>
+<form>
+	<p>First Name:</p>
+	<input type="text" name="firstname">
+	<p>Last Name:</p>
+	<input type="text" name="lastname">
+	<p>Gender:</p>
+	<input type="radio" name="Male">
+	<input type="radio" name="Female">
+	<input type="submit" name="Submitbtn">
+</form>
+<p>here for type radio name is given as male and female bt its not displayed so the name attri is not the one which gets displayed for that input element.so how to get values for those two radio btns of Gender.</p>
+<p>its by giving another attribute called value, value=female or male</p>
+<form>
+	<p>Gender:</p>
+	<input type="radio" name="femaleradio" value="Female">
+	<input type="radio" name="maleradio" value="Male">
+</form>
+<p>no still its not displayed.</p>
+<p>so for radio btns there is no attribute to get displayed the text for that radiobtn. whatever the option male,female,white,black or any other option can be just written just after the input tag</p>
+<form>
+	<p>Gender:</p>
+	<input type="radio" name="female">Female
+	<input type="radio" name="male">Male
+</form>
+<p>oh yes now the text came for both the radiobtns</p>
+<p> value attribute also works that means the value assigned to value attri is displayed actually for type text and submit btn.in case of type=text, the value mentioned in input type text is displayed in the rect box. and in type=submit, the vlaue will be displayed as text of the btn</p>
+<form>
+	<p>First name</p>
+	<input type="text" name="firname" value="anila">
+	<input type="submit" value="Submitt">
+</form>
+<p>The form filled and when clicked on submit btn, the form will be posted for validating. and the end result like in other websites "Thanks for contacting! we will contact you soon" or "Application submitted". so such messages will be displayed</p>
+<p>make it checked in case of radio btn </p>
+<form>
+	<label>Gender:</label>
+	<input type="radio" name="radio" checked="checked">Male
+	<input type="radio" name="radio">Female
+	<input type="submit" value="submit Gender">
+</form>
+<p>Form with a php file 'welcome'. </p>
+<form action="/home/anila/Desktop/DL projects/DL projects/practise/welcome.php" method="get">
+	First Name:
+	<input type="text" name="firstname">
+	Last Name:
+	<input type="text" name="lastname">
+	Gender:
+	<input type="radio" name="male" checked="checked">Male
+	<input type="radio" name="female">Female
+	<input type="submit" value="Submit form">
+</form>
+<p><h3>Result:</h3>when clicked on submit form the php file is getting downloaded :-(</p>
+<p>when we are submitting the form data we do it through http protocol and use method. whose values are GET or POST. method=get or method=post...so when to use get or post methods..<br>actually these methods are used when web browser communicates with server. web browser passes information to server using 2 http protocol methods- get and post.<br> in get method, data is sent through url in name-value pair as parameters.and if more than 1 parameter is there, they are separated by & ... for example http://www.mbaapplication.com/action.php?firstname=john&age=25 <br></p>
+<p>through a php global variable $_GET, the data sent to server can be accessed</p>
+<p>data sent through POST will not be visible in the url. data is sent to server separately as a package.data is more secure in post method than in get method bcz the data is not visible even in the server logs. so in get method we cannot send sensitive info like username and password, while in post method we can.Even binary data can be sent through post method like file upload</p>
+<p>so only limited data can be sent through GET method while limit is larger for POST method</p>
+<p>get method- results can be bookmarked. post method- results cannot be bookmarked</p>
+<p>in the above form, there must be name attribute for form elements. if name attribute is not given then the value entered in that field will not be submitted.<br>Now,</p>
+<form>
+	<fieldset>
+		<legend>Personal Information</legend>
+		First Name: <input type="text" name="fname"><br>
+		Last Name: <input type="text" name="lname"><br>
+		Email Id: <input type="text" name="email">
+	</fieldset>
+	<fieldset>
+		<legend>Employement Details</legend>
+		Employer Name 1: <input type="text" name="emp1"><br>
+		Employer Name 2:<input type="text" name="emp2"><br>
+	</fieldset>
+	<input type="submit" name="Submit Details">
+</form>
+<p>In this form each type of information is divided into each section. this can be acheived by fieldset tag. and the name of the section like a caption ex personal information..can be acheived through legend tag inside fieldset tag. form-fieldset-legend-input or any other field level tags</p>
+<h4>Select tag for drop-down</h4>
+<form>
+	Date of Birth<br>
+	Month <select name="month">
+		<option value="Month">Select Month</option>
+		<option name="January" value="January">January</option>
+		<option name="Febraury" value="Febraury">Febraury</option>
+		<option name="March" value="March">March</option>
+	</select>
+</form>
+<p>form-select-option  option will come with the ending tag.here first option will be selected by default but if any other option has to be selected and displayed while page loading even before select any option, then must use selected inside the opening tag of option. like option name="" selected</p>
+<form>
+	Date of Birth<br>
+	Month <select name="month">
+		<option value="Month">Select Month</option>
+		<option name="January" value="January" selected="selected">January</option>
+		<option name="Febraury" value="Febraury">Febraury</option>
+		<option name="March" value="March">March</option>
+	</select>
+</form>
+<p>so here selected attribute is given for january</p>
+<h4>another attribute for dropdown tag select is size which defines how many values should be visible </h4>
+<form>
+	Date of Birth<br>
+	Month <select name="month" size="3">
+		<option value="Month">Select Month</option>
+		<option name="January" value="January" selected="selected">January</option>
+		<option name="Febraury" value="Febraury">Febraury</option>
+		<option name="March" value="March">March</option>
+		<option name="March" value="April">April</option>
+		<option name="March" value="May">May</option>
+		<option name="March" value="June">June</option>
+		<option name="March" value="July">July</option>
+	</select>
+</form>
+<p>and we can also select multiple options in a dropdown for ex like selecting city of work preference in job portals like naukri. just hold ctrl key and select</p>
+<form>
+	City of preference<br>
+	City <select name="city" size="3" multiple="multiple">
+		<option value="selectcity">Select City</option>
+		<option name="Hyderabad">Hyderabad</option>
+		<option name="Febraury" >Banglore</option>
+		<option name="March">Chennai</option>
+		<option name="March">Pune</option>
+		<option name="March">Kerala</option>
+		<option name="March">Delhi</option>
+		<option name="March">Mumbai</option>
+	</select>
+</form>
+<h4>textarea</h4>
+<p>textarea for entering more amount of text like entering comments, or entering address in some websites.textarea comes with rows and cols</p>
+<h4>Comments</h4>
+<textarea name="comments" rows="3" cols="100">
+	
+</textarea>
+<input type="submit" name="Comments" value="Comments">
+<br>
+<p>html5 provides button tag for buttons under which we can code what action should happen when clicked on that button... <b>need to explore more</b></p>
+<p>sometimes an input tag comes with a dropdown as well, where we can input something as well as select from in the dropdown.this can be acheived through datalist-options. the list attribute of input tag should be equal to id of datalist tag</p>
+<form>
+	<input type="input" name="products" list="productnames">
+	<datalist id="productnames">
+		<option type="select" value="Dove">
+		<option type="select" value="Surf Excel">
+	</datalist>
+</form>
+<br>
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+<h4>optgroup ..for displaying a group of options belonging to a kind. so use label attribute for displaying the name of that group</h4>
+<form>
+	<select>
+		<optgroup label="fruits">
+			<option name="fruit1">Mango</option>
+			<option name="fruit2">Apple</option>
+			<option name="fruit3">Orange</option>
+		</optgroup>
+		<optgroup label="Veggies">
+			<option name="veg1">Tomato</option>
+			<option name="veg2">Spinach</option>
+			<option name="veg3">Beetroot</option>			
+		</optgroup>
+	</select>
+</form>
+<h4>when input type is password. when to enter password the input field should not be like a normal text field</h4>
+<form>
+	user name: <input type="text" name="username"><br>
+	Password: <input type="Password" name="password"><br>
+	<input type="submit" value="Login">
+</form>
+<p>and to this same above form, once we entered values we can even reset the values by input type=reset</p>
+<form>
+	user name: <input type="text" name="username"><br>
+	Password: <input type="Password" name="password"><br>
+	<input type="submit" value="Login">
+	<input type="reset" value="Reset">
+</form>
+<h4>input type checkboxes</h4>
+<form>
+	user name: <input type="text" name="username"><br>
+	Password: <input type="Password" name="password"><br>
+	Fav color: <input type="checkbox" name="blue" value="blue">Blue
+	<input type="checkbox" value="green">Green<br>
+	<input type="submit" value="Login">
+	<input type="reset" value="Reset">
+</form>
+<hr>
+<p>html5 has introduced various other types of input like url,email id,date,search,month,range,time,week,tel,number,datetime-local,color</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
