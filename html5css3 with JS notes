@@ -1,0 +1,190 @@
+class 6 JS 
+
+********
+css selectors
+terms in html n css
+
+combinators
+pseudo elements classes***
+normalization
+position abs rel ****
+**********************
+
+responsive .. resp webpage
+inspect element---mobile icon..chk responsive in diff deices
+so use media queries...but there is a css framework bootstrap which provides all the things...
+but learn how to use media queries in csss files.
+
+external css can be used for multple html files dats d main reason
+
+** practise media queries
+video..controls autoplay loop
+adding youtube video in iframe
+for youtube go to share embed
+
+audio controls must
+
+b perfect in css
+********************
+
+css3
+
+transition
+box shadow
+transformations 2d 3d
+combine trasition n tranfmtn
+
+overflow
+================================================================
+23rd notes
+
+
+animations
+background linear gradient--repeat
+
+===js
+
+script tag location
+console.log
+document.write
+
+ object literal notation
+var ob={}
+-using contstructor
+-Object.create()
+
+
+function sayhi{
+}
+sayhi()
+
+var obj={
+  name="adf"
+  age=30
+  obj2:{
+	name="ADFasdfds"
+
+}
+}
+ sayhi(obj.obj2.name) ---- prints  ADFasdfds
+
+primitive datat yeps refence dataype
+
+consle.log (typeof a)
+
+primtive takes only one value and doesnt change even if changed the value later..but ref type takes changed as wel
+
+creation phase executionp hase of fucntions
+
+dom heart of js
+
+arrays...(json data, array chk later)
+array methods..push pop shift unshift slice splice map filter concat join
+
+
+constructor methods
+this
+constructor funtn will have objects..normla fntn wil not have
+
+inheritance
+use prototypes
+
+function bike(color,price){
+
+	this.color="red";
+	this.price=40000;
+}
+bike.prototype={
+	drive:function()
+	{
+  console.log("every bike can driven");
+},
+break:function()
+{
+ console.log("every bike will have break");
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
