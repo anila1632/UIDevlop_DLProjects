@@ -1,0 +1,255 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	/*background-color:lightgray;*/
+	background-image: url("/home/anila/Desktop/DL projects/DL projects/practise/image/treeposition.jpg");
+	background-attachment:fixed;
+	background-repeat: repeat;
+}
+header{
+	background-color:#c47725;
+	height:150px;
+}
+footer{
+	background-color:rgba(0,255,0,1);
+	height: 100px;
+}
+.navbar{
+	float:right;
+	margin-right:40px;
+	margin-top:10px;
+	padding-top:20px;	
+}
+.logo{
+	float:left;
+	margin-left:30px;
+}
+nav a{
+	padding-right:30px;
+	font-size: 20px;
+	color:rgb(0,0,0);	
+}
+.logowithul{
+	float:left;
+	margin-left:10px;
+	margin-top:60px;
+	padding-top:20px;	
+}
+.navbarwithul{
+	float:right;
+	margin-right:40px;
+	margin-top:10px;
+	padding-top:20px;	
+}
+ul li{
+	padding-right:30px;
+	font-size: 20px;
+	color:rgb(0,0,255);	
+	list-style-type: none;
+	float: left;
+}
+/*a link is for unvisited. */
+/*.pseudoclass:link{
+	color: red;
+}*/
+.pseudoclass:visited{
+	color: red;
+}
+.pseudoclass:hover{
+	color: black;
+}
+.pseudoclass:active{
+	color: blue;
+}
+div.pseudo1:hover{
+	background-color: lightblue;
+}
+div.pseudo1{
+	background-color:yellow;
+	height: 100px;
+	width: 150px;
+}
+div.pseudo2:hover{
+	background-color: orange;
+}
+div.pseudo2{
+	background-color:blue;
+	height: 100px;
+	width: 150px;
+}
+div.blockdiv{
+	display:block;
+	background-color:gray;
+}
+table,tr,td,th{
+	border:2px solid red;	
+}
+td.hoverit:hover{
+	height: 50px;
+	background-color:gray;
+
+}
+
+.phover{
+    display: none;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+div.itshover:hover p
+{
+    display: block;
+}
+.bgimage{
+	background-image: url("/home/anila/Desktop/DL projects/DL projects/practise/image/trees.jpg");
+	height: 70px;
+	width:100%;
+	color:white;
+	font-size: 26px;
+	text-align:center;
+}
+.bgrepeat{
+	/*background-image: url("/home/anila/Desktop/DL projects/DL projects/practise/image/treeposition.jpg");*/
+	background-repeat:no-repeat;
+	color:blue;
+	font-size:26px;
+	height:370px;
+	width:70%;
+	
+}
+.bgattach{
+	background-image: url("/home/anila/Desktop/DL projects/DL projects/practise/image/blueballoon.jpg");
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-color:orange;
+	height:1000px;
+}
+.bgposition{
+	background-image: url("/home/anila/Desktop/DL projects/DL projects/practise/image/Litchi.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color:lightpink;
+	height:500px;	
+}
+.textjustify{
+	text-align:justify;
+	height:50px;
+}
+.textdeco{
+	border:5px dotted white;
+	height:70px;
+	text-align:center;
+	text-decoration:underline;
+	font-size: 26px;
+	color:black;
+}
+.texttransform{
+	height:50px;
+	outline:5px solid white;
+	text-transform:uppercase;
+	color:orange;
+	font-size: 30px;
+}
+.textindent{
+	height:100px;
+	background-color:gray;
+	font-size:26px;
+	text-transform:capitalize;
+	/*text-align:right;*/
+	text-indent:80px;
+	letter-spacing:5px;
+}
+.linespace{
+	height:50px;
+	background-color:brown;
+	font-size:14px;
+	text-transform:capitalize;
+	line-height:0.8;
+}
+.wolinespace{
+	height:50px;
+	background-color: darkgreen;
+	color:white;
+	font-size: 20px;
+	text-decoration:underline;
+}
+.wordspacing{
+	height:120px;
+	background-color:black;
+	color: yellow;
+	font-size:20px;
+	text-indent:20px;
+	line-height:2;
+	word-spacing:10px;
+	text-shadow:3px 2px blue;
+}
+.pimagebottom{
+	height:100px;
+	background-color:lightblue;	
+	vertical-align: text-bottom;
+}
+.pimagetop{
+	height:100px;
+	background-color:green;	
+	vertical-align: text-top;
+}
+.pimage{
+	height:100px;
+	background-color:gray;
+}
+.nowrap{
+	background-color:white;
+	height: 100px;
+	width:50px;
+	white-space: nowrap;
+	border:2px solid red;
+}
+.wraptext{
+	background-color:gray;
+	height:150px;
+	width:50px;
+	color:red;
+	white-space:pre-wrap;
+}
+.textoverflowellipsis{
+	background-color:white;
+	height:70px;
+	width:100px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.overlfowhidden{
+	background-color:gray;
+	height:150px;
+	width:100px;
+	overflow:hidden;
+}
+.textoverflowellipsis:hover{
+	overflow:visible;
+}
+.swbhover{
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.swbhover:hover{
+	overflow: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
