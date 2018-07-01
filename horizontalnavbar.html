@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Impl Horizontal Nav Bar</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		.horizontalul{
+			height:50px;
+			background-color:lightgray;
+			overflow:auto;
+			position:fixed;
+			top:0;			
+		}
+		.horizontalul li{
+			display:inline;		
+			float:left;	
+			padding:8px;
+			border-right:1px solid white;	
+		}
+		.horizontalul li:last-child{
+			border-right:none;
+		}
+		.horizontalli a{
+			text-decoration:none;
+			text-align:center;
+			padding:8px 10px;
+		}
+		.horizontalli a:hover{
+			background-color:green;
+
+		}
+		.horizontalli a:active{
+			background-color:red;
+		}
+		
+	</style>
+</head>
+<body>
+	<p>horizontal nav bar with sticky position</p>
+	<nav class="horizontalnavbar">
+		<ul class="horizontalul">
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 1</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 2</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 3</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 4</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 5</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 6</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 6</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 6</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 6</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 6</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1">Regular Exp 6</a></li>
+			<li class="horizontalli"><a href="practiseRegExpressions.html" class="l1" target="_self">Regular Exp 10</a></li>
+		</ul>
+	</nav>
+	<p style="padding-top:60px;">Horizontal nav bar in two types inline and floating. position fixed and overflow hidden to ul. but position sticky is given to li...whats the exact difference</p>
+	<p>---------------------------------------------------------------------------------------</p>
+	<p>What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br><br><br>
+	
+	<p>Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+<br><br><br><br><br>
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, <br>from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br><br><br>
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>	<br><br><br><br><br>
+<p>
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, <br>from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br><br><br>
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>		  	 
+<p>
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, <br>from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br><br><br>
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><br><br><br><br><br><br> 	  
+<p>
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, <br>from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br><br><br>
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>		  	  
+<p>
+Where does it come from?<br><br><br><br><br><br>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, <br>from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br><br><br><br><br>
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>		  	  
+
+
+</body>
+</html>

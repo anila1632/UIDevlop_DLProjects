@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Impl Combinators</title>
+	<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.div1{
+		height: 120px;
+		background-color:lightblue;
+	}
+	.div1 .h31{
+		color:red;
+	}
+	.div1 .p1{
+		color:yellow;
+		text-decoration:none;
+		font-size: 30px;
+	}
+	.div1 .link1:hover{
+		color:white;
+		text-transform:capitalize;
+		background-color:gray;
+	}
+	.div1 .h31,p1{
+		color:green;
+	}
+	.p1 .link1{
+		color:red;
+	}
+	.div2{
+		background-color:lightgray;
+		height:230px;
+	}
+	.div2 > p{
+		color:white;
+		font-size:30px;
+		background-color:green;
+	}
+	.div3{
+		background-color:yellow;
+		height:250px;
+	}
+	.sampDiv + p{
+		background-color:gray;
+		
+	}
+	.sampDiv + h3{
+		background-color:gray;
+	}
+	.div4{
+		background-color:lightblue;
+	}
+	.insDiv ~ p{
+		background-color:orange;
+	}
+	
+
+
+
+
+	</style>
+	
+</head>
+<body>
+	<p>combinators showcase the relationship between elements..parent child siblings</p>
+	<div class="div1">
+		<h3 class="h31">Descendant selector- space</h3>
+		<p class="p1">This is paragraph<a href="http://www.google.com" class="link1">Google </a></p>
+	</div>
+	<!--<noscript>
+		<p>combinators showcase the relationship between elements..parent child siblings</p>
+	    <div class="div1">
+		<h3>Descendant selector- space</h3>
+		<p class="p1">This is paragraph<a href="http://www.google.com" class="link">Google </a></p>
+	</div>
+	</noscript> -->
+	<div class="div2">
+		<h3 class="h32">Child selector > </h3>
+		<h5>div - p tag</h5>
+		<p class="p2">child 1 p tag <a href="http://www.google.com" class="link2">Google </a></p>
+		<p>child 2 p tag</p>
+		<p>child 3 p tag</p>
+		<a href="http://www.google.com">Google</a>
+		<p>child 4 p tag</p>
+		<p>child 5 p tag</p>
+		<span><p>this child is inside span tag...p tag. suppose there is div and there are p tags. inside div there is another div and insdie this div also there are p. so if we say div p then the effect would be applied to all p's inside div</p></span>
+	</div>
+	<div class="div3">
+		<h3>Adjacent sibling selector +</h3>
+		<p>adj sibling selector selects all the adj elements of an elements...suppose if there is div-p divClosed p1 p2 p3. and we said div + p it selects the immediate p after divClosed that is p1..lets c</p>
+		<div class="sampDiv">
+			<p>this p tag is in div tag</p>
+		</div>
+		<p class="ptag1">p1 outside div tag</p>
+		<h3>h3 between adj child of div</h3>
+		<p class="ptag2">p2 outside div tag</p>
+		<p class="ptag3">p3 outside div tag</p>
+	</div>
+	<div class="div4">
+		<h3>General sibling selector tilt ~ </h3>
+		<p>it selects all the siblings of a specified element</p>
+		<div class="insDiv">
+			<p class="insP1">this p tag is inside another div of div4</p>
+			<p class="insP1">this p tag is inside another div of div4</p>
+			<p class="insP1">this p tag is inside another div of div4</p>
+			<p class="insP1">this p tag is inside another div of div4</p>
+		</div>	
+		<p>adjacent sibling(+) selects only the immediate sibling ..but</p>
+		<p>general sibling ~ </p>
+		<p>it selects all the siblings of a specified element</p>
+	</div>
+
+</body>
+</html>

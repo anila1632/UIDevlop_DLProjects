@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>imple display inline-block</title>
+	<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.dispul{
+		height:70px;
+		background-color:lightgray;
+		list-style-type:none;
+	}
+	.displi{
+		border-right:1px solid black;
+		/*float:left;*/
+		padding:8px 10px;
+		display:inline-block;
+		margin-top: 15px
+
+	}
+	.displi a{
+		text-decoration:none;	
+		font-size:20px;
+	}
+	.displi a:hover{
+		background-color:white;
+	}
+
+		
+	</style>
+	
+</head>
+<body>
+	<nav class="dispnav">
+		<ul class="dispul">
+			<li class="displi"><a href="practiseRegExpressions.html">Regular Expressions 1</a></li>
+			<li class="displi"><a href="practiseRegExpressions.html">Regular Expressions 2</a></li>
+			<li class="displi"><a href="practiseRegExpressions.html">Regular Expressions 3</a></li>
+			<li class="displi"><a href="practiseRegExpressions.html">Regular Expressions 4</a></li>
+			<li class="displi"><a href="practiseRegExpressions.html">Regular Expressions 5</a></li>
+			<li class="displi"><a href="practiseRegExpressions.html">Regular Expressions 6</a></li>
+		</ul>
+	</nav><br>
+	<p>display: inline doesnt allow us to make margins,height and width.<br><br> but, display:inline-block allows us to make margins,height,width,paddings.</p><br>
+	<p>display:block adds line-break after every link or element <br>but, display:inline-block doesnt add line-break..elements will sit next to each other</p>
+
+</body>
+</html>
