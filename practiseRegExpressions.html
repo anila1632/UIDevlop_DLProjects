@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reg Expressions</title>
+	<style type="text/css">
+	/**
+	{
+		margin:0px;
+		padding:0px;
+	}*/
+	body{
+		background-image: url("/home/anila/Desktop/DL projects/DL projects/practise/image/beach.jpg");
+	}
+	#contactform
+	{
+		border:2px solid white;
+		height:250px;
+		margin-top:100px;
+		padding-top:20px;
+		background-color:white;
+
+	}
+	#contactform form{
+		display:inline-block;
+		margin-left: 50px;
+	}
+	#notesonRegularExpressions
+	{
+		background-color:lightgray;
+		height:1000px;
+
+
+	}
+	#notesheading
+	{
+		border-bottom:2px double black;
+		width:30%;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="contactform">
+		<h3>Sign-Up Form</h3>
+		<form onsubmit="return formvalidation()">
+			First Name: <input type="text" name="fname" placeholder="First Name" id="firstname"><br>
+			Last Name:  <input type="text" name="lname" placeholder="Last Name" id="lastname"><br>
+			Email ID:   <input type="email" name="emailId" placeholder="Enter your Email Id" id="emailid"><br>
+			Password:   <input type="password" placeholder="Enter your password" id="pwd"><br>
+			Confirm Password: <input type="password" placeholder="confirm password" id="cpwd"><br><br>
+			<input type="submit" name="submitdetails" value="Submit" id="submit">
+		</form>
+	</div>
+	<div id="notesonRegularExpressions">
+		<h3 id="notesheading">Notes on Regular expressions</h3>
+		<p><a href="https://regex101.com/" target="_blank" style="text-decoration:none;text-transform:capitalize;color:green;">try this link for regular expression testing</a></p>
+		<ul>
+			<li>A regular expression is a combination of strings wich matches a type of input.Regular exp is of type Object</li>
+			<li>2 ways of writing regular exp: regular express literal and regular expression constructor.<br>regular express literal -> var firstname=/anila/;  / / to enclose the exp.<br>regular expression constructor -> var firstname=new RegExp("anila"); <br>Here, in both ex the input the validated char by char first 'a' then 'n' then 'i' and so on.</li>
+			<li>So when to use what? <br> when our input value is not changing then use variables and if the value changes or the value comes from other variables then use constructor</li>
+			<li>methods like test() can be used and it returns boolean values. RegExp.prototype.test()<br>(/cat/.test("this is cat")) -> willreturn true <br> (/cat/.test("this is animal")) -> returns false</li>
+			<li>. -> matches with any single character except line breaks. dot is a wildcard it matches with everything letter digit whitespace. ex:  /./ </li>
+			<li>^ -> matches the beginning of a string</li>
+			<li>$ -> matches the end of a string</li>
+			<li>* -> matches the preceding exp 0 or more times</li>
+			<li>+  -> matches the preceding exp 1 or more times</li>
+			<li>? -> preceding exp is optional</li>
+			<li>\d -> matches any single digit character</li>
+			<li>\w -> matches any word character--alphanumeric and underscore</li>
+			<li>[A-K] -> matches any single character in the exp for capital letters in those range</li>
+			<li>[A-K]+  -> matches with atleast one character</li>
+			<li>[ABCD] -> matches with any single character in the brackets</li>
+			<li>[^A-K] -> matches with any single character not uppercase. ^ if used inside acts as negation</li>
+			<li>Flags: there are 5 optional flags which can b used seprately/together and only after closing / ..g-- global search i -- case insensitive search. /[A-Z]/g</li>
+			<li>(x) -> capturing paranthesis. matches x and stores value for x and can use it later.<br>(?:x) -> non-capturing.matches x and doesnt store any value<br>x(?=y) ->lookahead.matches x only if its followed by y </li>
+			<li>\ -> is backslash... when we have a slash / in the search then use it with backslash.. like (/\//) or for that matter any special charater search should start with backslash and char.. /\$/,/\?/ </li>
+			<li>\d=[0-9] digits</li>
+			<li>\w=[A-Za-z0-9_] matches any single char uppercase lowercase digits and underscore</li>
+		</ul>
+		<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" style="text-decoration:none;">Link of below notes</a>
+		<h3>more notes!!</h3>
+		<ul>
+			<li>Apart from exec(),test() method, other methods are used are replace(),match(),search(),split() methods of String</li>
+			<li>{n} -> matches n occurances of the preceding expression.also {n,} -> matches atleast n times. {n,m} -> n<=m so matches min n times and max m times</li>
+			<li>\d -> matches a digit [0-9] and \D -> matches non-digit ==[^0-9]<br>similarly,\w -> matches words a-zA-Z0-9_  and \W matches non-word char other symbols</li>
+			<li>\S -> matches characters other than white-spaces</li>
+			<li>Methods of RegExp: exec and test.<br>exec -> executes the search in a string and returns the array of information that is matching or null on mismatch<br>test -> tests for a match in a string and returns true/false</li>
+			<li>Methods of String: match,search,replace,split.<br>match -> same as exec but it is a string method. <br>var searchstring="cat is an animal";var regsrc=/a./;var found=str.match(regsrc);</li>
+			<li>search() -> same like test method but search method returns index of the matched string and -1 if fails</li>
+			<li>replace -> searches for a substring in the given string and replaces with the new substring given.<br>str.replace(regexp|substring,newsubstring|function)</li>
+			<li>split -> splits the given string.<br>str.split([separator[,limit]]) -- separator can be a regular expression. limit is after how many string the split has to happen</li>
+		</ul>
+		<h2 style="color:red;">Practise more on these </h2>
+	</div>
+
+	<script type="text/javascript" src="/home/anila/Desktop/DL projects/DL projects/practise/RegExp.js"></script>
+
+</body>
+</html>
