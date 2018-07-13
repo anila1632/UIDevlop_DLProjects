@@ -1,0 +1,126 @@
+architecture of web application]
+web site is static just to view data
+web application is dynamic plus db
+
+3tier architecture
+frontend-- backend--- db
+these 3 will have 3 diff servers and will be connected by help of network 
+
+structured data..semi structured data...non structured data
+
+client side dynamic functionalites thru js
+
+chk godaddy] jst to know what n how website is created]
+DNS domain name server...every website has some server and an ip address to it..the user cannot enter the ip address everytime to connect to that so we have a name to that ip address that is nothing but the url.
+
+what is application server]
+entire application is placed in a particular server. this is diff from each component in architecture having a server.
+
+
+digitallyncac.slack.com]
+
+angular plus typescript...internlali it gets convetsd to js..bcz brosers understands onli js
+
+version 1- js..controllers based
+version 2- ts ... components based
+till version 6 its TS typescript
+
+learn seq
+
+html css..12hr
+js ..13-15hrs
+bootstrap 3hr
+ts 4hr
+angular 12hr
+MEAN stack
+
+
+============================================================================================================================
+download sublime 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
