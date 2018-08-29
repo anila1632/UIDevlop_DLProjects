@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML with all CSS</title>
+	<link rel="stylesheet" type="text/css" href="/home/anila/Desktop/Practise/withAllCSS/allCSS.css">
+	<link rel="stylesheet/less" type="text/css" href="/home/anila/Desktop/Practise/withAllCSS/allCSSwithLESS.less" />
+	<!-- <link rel="stylesheet/less" type="text/css" href="styles.less" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script> -->
+	<script type="text/javascript" src="/home/anila/Desktop/Practise/withAllCSS/lessFile/less.min.js"></script>
+</head>
+<body>
+	<header id="headerPart">
+		<div id="headerDiv">
+			<h3>Welcome to the page</h3>
+		</div>
+		<nav id="navBarPos">
+			<a href="https://www.google.com" class="navBar">Google</a><a href="https://www.w3schools.com/css/css_positioning.asp" class="navBar">W3 Schools</a><a href="https://www.linkedin.com/" class="navBar">Linked in</a>
+		</nav>
+	</header>
+	<main id="mainPart">
+		<div id="mainDiv">
+			
+		</div>
+		<div id="backgroundImgRepeat">
+			<h3>background image with short hand background property</h3>
+			<p id="paddingBox">background: color image repeat attachement position </p>	<br>	
+			<p>background-blend-mode: normal lighten darken overlay...</p>	<br>
+			<p id="borderBox">background-clip: bg clip can be image/color.. border-box(background comes along with the border) padding-box(bg comes between border covering content) content-box(bg covers just the content)...</p><br><br>
+			<p id="contentBox">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			</p><br>
+			<p id="bgOrigin">background-origin: defines the background image's origin position. values are content-box padding-box border-box inherit initial<br>background size auto or 20px 10px like values</p>
+			<div id="marginDiv">
+				<p id="pMargin">para with all margin-top margin-right margin-bottom margin-left and min-width,max-width</p>
+				<p id="textFormatting">Text formatting includes color, text-align,text-decoration,<br>text-transform,text-indent,letter-spacing,line-height,direction,word-spacing,text-shadow,text-overflow,vertical-align,white-space</p>
+				<p id="textShadow1">Text shadow</p>
+				<p id="textShadow2">Text shadow</p>
+			</div>
+
+		</div>
+		<div id="linksDiv">
+				<p>links can be styled with any css prop like font,background,color etc and can be styled according to their state. a:link a:visited a:hover a:active. this is the order.</p>
+				<a href="https://www.google.com" id="link1">Google link 1</a>
+				<a href="https://www.google.com" id="link2">Google link 2</a>
+				<a href="https://www.google.com" id="linkBtn1">link btn</a>
+		</div>
+		<div id="listsDiv">
+			<ul id="ulList1">
+				<li>unordered</li>
+				<li>list</li>
+				<li>items</li>				
+			</ul>
+			<ol id="olList1">
+				<li>ordered</li>
+				<li>list</li>
+				<li>items</li>			
+			</ol>
+			<!-- <ul id="listStyleImage">
+				<li>this is</li>
+				<li>with css prop</li>
+				<li>list-style-image</li>
+			</ul> -->
+		</div>
+		<div id="tablesDiv">
+			<table id="table01">
+				
+
+			</table>
+		</div>
+		<div id="displayDiv">
+			<div id="blockDiv">Block level elements take up as much as space need left,right and full width. to control it set margin to auto. then the elements will align to center within the container. also set width to the block level element.</div>
+			<p>when the screen/window becomes smaller a horizontal scrollbar is added to the above. instead, add max-width prop</p>
+			<div id="blockDiv_maxwidth">Block level elements take up as much as space need left,right and full width. to control it set margin to auto. then the elements will align to center within the container. also set width to the block level element.</div>
+			<div id="inlineDiv">inline level elements</div>
+			<img src="/home/anila/Desktop/Practise/withAllCSS/images/lion.jpg" id="displayNone">
+			<img src="/home/anila/Desktop/Practise/withAllCSS/images/blueballoon.jpg" id="visibilityHidden">
+		</div>
+		<div id="maxWidthDiv">done above</div>
+		<div id="positionDiv">
+			<p>position defines type of positioning..static relative fixed absolute sticky</p>
+			<p>only after setting position property...top bottom left or right is set.</p>
+			<img src="/home/anila/Desktop/Practise/withAllCSS/images/lion.jpg" width="70px" height="50px" id="positionRel">
+			<p>position relative moves with respect to its normal position</p>
+			<p>position fixed doesnt move even if page is scrolled and is relative to viewport.we can use top bottom left right</p>
+			<!-- <img src="/home/anila/Desktop/Practise/withAllCSS/images/blueballoon.jpg" id="positionFixed"> -->
+			<div id="positionFixed">position is fixed</div>
+			<p>position absolute is positioned based on the nearest positioned ancestor.but if there is not positioned ancestor, it takes the document body for moving. position absolute doesnt accept static</p>
+			<div id="position1">This div is positioned relative</div>
+			<div id="positionAbsolute">this is positioned absolute</div>
+			<img src="/home/anila/Desktop/Practise/withAllCSS/images/bighomeTree.jpg" id="textoverImage">
+			<p id="overText">it's not how big the house is, it's how happy the home is</p>			
+		</div>
+		<div id="overflowDiv">
+			<p>overflow prop of csss controls of wat happens to text if its very very long on the page. overflow visible(full content visible outside the container as well), overflow hidden--extra content willbe invisible.</p>
+			<h3>overflow visible</h3>
+			<p id="sampleTextoverflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
+			<p id="sampleTextoverflow2">overflow=hidden...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id="sampleTextoverflow3">overflow=scroll...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id="sampleTextoverflow4">overflow=auto...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id="sampleTextoverflowX">overflow-x: scroll==gives scroll bar along x and y axis.if scroll for overflow-y doesnt have scroll bar along x axis...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id="sampleTextoverflowY">overflow-y...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div id="floatDiv">
+			<div id="divFloatLeft"><p>Float Left</p></div>
+			<div id="divFloatRight"><p>Float Right</p></div>
+			<p id="eleWithClearBoth">Paragraph without float, clear=both</p>
+			<p id="eleWithFloatNone">Paragraph with float=none</p>
+			<p>clear specifies which elements to be specified to float on which side.clear left indicates..floating of elements not allowed on left side.similarly clear right. clear both no floating allowed either on left or right side.but clear none==allows floating elements on both sides...this is DEFAULT</p>
+		</div>
+		<div id="displayInlineBlockDiv">
+			<div class="blockLevelelts">
+				<h3>Block level elements</h3>
+				<p>block level elements start on a new line. any other ele after them also starts on a new line</p>
+				<ul>
+					<li>p</li>
+					<li>h1 to h6</li>
+					<li>ol, ul</li>
+					<li>pre</li>
+					<li>address</li>
+					<li>blockquote</li>
+					<li>dl</li>
+					<li>div</li>
+					<li>fieldset</li>
+					<li>form</li>
+					<li>hr</li>
+					<li>noscript</li>
+					<li>table</li>
+				</ul>				
+			</div>
+			<div class="inlineLevelelts">
+				<h3>Inline level elements</h3>
+				<p>inline level elements can appear within any sentences and do not begin on new line. inline level elements form short structures than block level elts</p>
+				<ul>
+					<li>b,big,i,small</li>
+					<li>abbr,cite,code,dfn,em,kbd,strong,samp,var</li>
+					<li>a, bdo, br, img, map, object, q, script, span, sub, sup</li>
+					<li>button, input, label, select, textarea</li>
+				</ul>				
+			</div>	
+			<div class="displayas_inlineblock1 displayas_inlineblock2">
+				<h3>Block level elements</h3>
+				<ul>
+					<li>p</li>
+					<li>h1 to h6</li>
+					<li>ol, ul</li>
+					<li>pre</li>
+					<li>address</li>
+					<li>blockquote</li>
+					<li>dl</li>
+					<li>div</li>
+					<li>fieldset</li>
+					<li>form</li>
+					<li>hr</li>
+					<li>noscript</li>
+					<li>table</li>
+				</ul>				
+				<h3>Inline level elements</h3>
+				<ul>
+					<li>b,big,i,small</li>
+					<li>abbr,cite,code,dfn,em,kbd,strong,samp,var</li>
+					<li>a, bdo, br, img, map, object, q, script, span, sub, sup</li>
+					<li>button, input, label, select, textarea</li>
+				</ul>				
+			</div>	
+		</div>
+		<div id="alignDiv">
+			<div class="marginAuto">
+				This is div with margin auto. div is block ele
+			</div>
+			<p class="imgMargin">making an inline ele to margin auto..make it block level first. p=block img=inline</p>
+			<img class="imgMargin" title="image margin auto" src="/home/anila/Desktop/Practise/withAllCSS/images/lion.jpg" alt="lion image" width="50px" height="50px">
+			<div id="forclearfixDiv">
+			<div id="clearfix">
+				<p>this is a sample para.....afasd asdf asdf asdfafd adsfasdfasdf adfasdadf adfafafa adfa</p>
+				<img class="img2" 
+				src="/home/anila/Desktop/Practise/withAllCSS/images/magnoliaTree.jpg" width="170px" height="170px">				
+			</div>	
+			</div>		
+			<div class="verticalHoriCentered">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+			</div>
+		</div>
+		<div id="combinatorsDiv">
+			
+		</div>
+		<div id="pseudoDiv">
+			
+		</div>
+		<div id="opacityDiv">
+			
+		</div>
+		<div id="navBarDiv">
+			
+		</div>
+		<div id="dropdownDiv">
+			
+		</div>
+		<div id="imgGalleryDiv">
+			
+		</div>
+		<div id="attrSelectorDiv">
+			
+		</div>
+		<div id="formdDiv">
+			
+		</div>
+		<div id="countersDiv">
+			
+
+		</div>
+		<div id="websiteLayoutDiv">
+			
+		</div>
+		<div id="unitsDiv">
+			
+		</div>
+		<div id="specificityDiv">
+			
+		</div>
+		<div id="advancedCssDiv">
+			<div>
+				
+			</div>
+			
+
+		</div>
+
+
+	</main>
+	<footer id="footerPart">
+		<div id="footerDiv">
+			<h4>@copyright information</h4>
+			<div id="colrblock1">color with rgb</div>
+			<div id="colrblock2">color with rgba</div>
+			<div id="colrblock3">color with hex</div>
+			<div id="colrblock4">color with hsl</div>
+			<div id="colrblock5">color with hsla</div>
+		</div>
+	</footer>
+
+</body>
+</html>
